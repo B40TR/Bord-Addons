@@ -151,9 +151,16 @@
     },
     {
       "id": "verdo",
-      "rev": 2,
-      "latest": "2.2.4",
+      "rev": 3,
+      "latest": "2.2.6",
       "versions": [
+        {
+          "version": "2.2.6",
+          "bord": ">=4.14.0",
+          "size": 97849602,
+          "sha256": "60fa0075162f370cefce3050409be14642210f1c25836a19987ad1d4d3dd4d80",
+          "url": "https://github.com/B40TR/bord-addons/releases/download/verdo-v2.2.6/verdo-2.2.6.bordaddon"
+        },
         {
           "version": "2.2.4",
           "bord": ">=4.14.0",
@@ -182,6 +189,22 @@
         "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\"><path d=\"M3.5 3.5V10M7.75 8V14.5M12 12.5V19M16.25 8V14.5M20.5 3.5V10\"/></svg>",
         "publisher": "bao",
         "releases": [
+          {
+            "version": "2.2.6",
+            "date": "2026-11-12",
+            "changelog": {
+              "vi": "Mượt hơn khi phiên âm file dài: gom các lần vẽ lại giao diện, tối đa 4 lần mỗi giây.",
+              "en": "Smoother on long files: UI redraws from live events are batched to at most 4 per second."
+            }
+          },
+          {
+            "version": "2.2.5",
+            "date": "2026-11-12",
+            "changelog": {
+              "vi": "Sửa bố cục: giữ khung Bord (thanh trái, tab, nút cửa sổ), chỉ bỏ hàng tiêu đề của Bord để Verdo có một hàng đầu.",
+              "en": "Layout fix: keep Bord's frame (rail, tabs, window buttons) and only drop Bord's title row so Verdo has a single top row."
+            }
+          },
           {
             "version": "2.2.4",
             "date": "2026-11-12",
@@ -235,6 +258,6 @@
     }
   ],
   "blocked": [],
-  "updated": "2026-11-12T01:56:05.783Z",
-  "rev": 9
+  "updated": "2026-11-12T02:40:34.434Z",
+  "rev": 10
 }
