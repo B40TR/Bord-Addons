@@ -37,9 +37,46 @@
           }
         ]
       }
+    },
+    {
+      "id": "ghi-nhanh",
+      "rev": 1,
+      "latest": "1.0.0",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "bord": ">=4.14.0",
+          "size": 4751,
+          "sha256": "227d17fc0ecbbe66094808652e4d344f5a5791df3ab47d41e3cbc8577ce0c5e2",
+          "url": "https://github.com/B40TR/bord-addons/releases/download/ghi-nhanh-v1.0.0/ghi-nhanh-1.0.0.bordaddon"
+        }
+      ],
+      "info": {
+        "name": "Ghi nhanh",
+        "summary": {
+          "vi": "Hộp ghi nhanh: nhật ký hôm nay, ghi chú mới, việc Flow.",
+          "en": "Quick box: daily journal, new note, Flow task."
+        },
+        "about": {
+          "vi": "Hộp ghi nhanh: nhật ký hôm nay, ghi chú mới, việc Flow. Chạy hoàn toàn trên máy, không gửi dữ liệu ra ngoài. Quyền xin: ui.rail, ui.command, ui.modal, data.notes.read, data.notes.write, data.flow.write.",
+          "en": "Quick box: daily journal, new note, Flow task. Runs fully on your machine. Permissions: ui.rail, ui.command, ui.modal, data.notes.read, data.notes.write, data.flow.write."
+        },
+        "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4 20l4-1 11-11a2.1 2.1 0 00-3-3L5 16l-1 4z\"/><path d=\"M14 7l3 3\"/></svg>",
+        "publisher": "bord",
+        "releases": [
+          {
+            "version": "1.0.0",
+            "date": "2026-11-10",
+            "changelog": {
+              "vi": "Bản đầu tiên.",
+              "en": "First release."
+            }
+          }
+        ]
+      }
     }
   ],
   "blocked": [],
-  "updated": "2026-11-12T00:09:43.373Z",
-  "rev": 1
+  "updated": "2026-11-12T00:18:19.268Z",
+  "rev": 2
 }
