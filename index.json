@@ -219,7 +219,12 @@
       }
     }
   ],
-  "blocked": [],
-  "updated": "2026-11-12T00:50:30.424Z",
-  "rev": 5
+  "blocked": [
+    {
+      "id": "verdo",
+      "reason": "Cần đổi mới"
+    }
+  ],
+  "updated": "2026-11-12T00:57:33.144Z",
+  "rev": 6
 }
