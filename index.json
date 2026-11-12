@@ -151,9 +151,16 @@
     },
     {
       "id": "verdo",
-      "rev": 3,
-      "latest": "2.2.6",
+      "rev": 4,
+      "latest": "2.2.7",
       "versions": [
+        {
+          "version": "2.2.7",
+          "bord": ">=4.14.0",
+          "size": 97848662,
+          "sha256": "dde57b00bb6072a9ad5c6d3bf0dd17f7d99c9e62ab81310cbc5704001c333984",
+          "url": "https://github.com/B40TR/bord-addons/releases/download/verdo-v2.2.7/verdo-2.2.7.bordaddon"
+        },
         {
           "version": "2.2.6",
           "bord": ">=4.14.0",
@@ -189,6 +196,14 @@
         "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\"><path d=\"M3.5 3.5V10M7.75 8V14.5M12 12.5V19M16.25 8V14.5M20.5 3.5V10\"/></svg>",
         "publisher": "bao",
         "releases": [
+          {
+            "version": "2.2.7",
+            "date": "2026-11-12",
+            "changelog": {
+              "vi": "Thêm lại quyền ui.page.full để Bord cho tắt hàng tiêu đề của nó (header một hàng); thông báo lỗi nói rõ khi thiếu quyền.",
+              "en": "Re-add the ui.page.full permission so Bord lets Verdo hide its title row (single-row header); the error message now says when a permission is missing."
+            }
+          },
           {
             "version": "2.2.6",
             "date": "2026-11-12",
@@ -258,6 +273,6 @@
     }
   ],
   "blocked": [],
-  "updated": "2026-11-12T02:40:34.434Z",
-  "rev": 10
+  "updated": "2026-11-12T03:01:16.189Z",
+  "rev": 11
 }
