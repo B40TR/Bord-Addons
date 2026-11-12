@@ -74,9 +74,46 @@
           }
         ]
       }
+    },
+    {
+      "id": "homnay",
+      "rev": 1,
+      "latest": "1.0.0",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "bord": ">=4.14.0",
+          "size": 5408,
+          "sha256": "8033fc3a1dcf0f242d5946ad7c202530237ec21dcb8c0928384850ea1572f5f3",
+          "url": "https://github.com/B40TR/bord-addons/releases/download/homnay-v1.0.0/homnay-1.0.0.bordaddon"
+        }
+      ],
+      "info": {
+        "name": "Hôm nay",
+        "summary": {
+          "vi": "Một màn hình cho ngày hôm nay: lịch, việc đến hạn, quá hạn, tải 7 ngày.",
+          "en": "One screen for today: calendar, due and overdue tasks, 7-day load."
+        },
+        "about": {
+          "vi": "Một màn hình cho ngày hôm nay: lịch, việc đến hạn, quá hạn, tải 7 ngày. Chạy hoàn toàn trên máy, không gửi dữ liệu ra ngoài. Quyền xin: ui.rail, ui.page, ui.command, data.flow.read, data.calendar.read.",
+          "en": "One screen for today: calendar, due and overdue tasks, 7-day load. Runs fully on your machine. Permissions: ui.rail, ui.page, ui.command, data.flow.read, data.calendar.read."
+        },
+        "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"3.5\" y=\"5\" width=\"17\" height=\"15\" rx=\"2.5\"/><path d=\"M3.5 10h17M8 3v4M16 3v4\"/><circle cx=\"12\" cy=\"15\" r=\"1.6\" fill=\"currentColor\"/></svg>",
+        "publisher": "bord",
+        "releases": [
+          {
+            "version": "1.0.0",
+            "date": "2026-11-10",
+            "changelog": {
+              "vi": "Bản đầu tiên.",
+              "en": "First release."
+            }
+          }
+        ]
+      }
     }
   ],
   "blocked": [],
-  "updated": "2026-11-12T00:18:19.268Z",
-  "rev": 2
+  "updated": "2026-11-12T00:18:44.881Z",
+  "rev": 3
 }
