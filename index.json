@@ -151,9 +151,16 @@
     },
     {
       "id": "verdo",
-      "rev": 5,
-      "latest": "2.2.8",
+      "rev": 6,
+      "latest": "2.2.10",
       "versions": [
+        {
+          "version": "2.2.10",
+          "bord": ">=4.14.0",
+          "size": 97849014,
+          "sha256": "7214f3cb6c9b27f3951ba19c0a047afc36aa59035ceedba9995aafdb56d71fcd",
+          "url": "https://github.com/B40TR/bord-addons/releases/download/verdo-v2.2.10/verdo-2.2.10.bordaddon"
+        },
         {
           "version": "2.2.8",
           "bord": ">=4.14.0",
@@ -203,6 +210,14 @@
         "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\"><path d=\"M3.5 3.5V10M7.75 8V14.5M12 12.5V19M16.25 8V14.5M20.5 3.5V10\"/></svg>",
         "publisher": "bao",
         "releases": [
+          {
+            "version": "2.2.10",
+            "date": "2026-11-12",
+            "changelog": {
+              "vi": "Sửa trang nhấp nháy/trống trên Bord 4.18.7: khai bố cục header một hàng trong manifest thay vì gọi lúc chạy (gọi lúc chạy làm Bord nạp lại trang mãi). Cần Bord 4.18.7 trở lên.",
+              "en": "Fix flicker/blank page on Bord 4.18.7: the single-row header layout is declared in the manifest instead of called at runtime (which made Bord reload the page forever). Requires Bord 4.18.7+."
+            }
+          },
           {
             "version": "2.2.8",
             "date": "2026-11-12",
@@ -288,6 +303,6 @@
     }
   ],
   "blocked": [],
-  "updated": "2026-11-12T03:14:18.595Z",
-  "rev": 12
+  "updated": "2026-11-12T04:01:41.441Z",
+  "rev": 13
 }
