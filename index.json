@@ -151,9 +151,16 @@
     },
     {
       "id": "verdo",
-      "rev": 1,
-      "latest": "2.2.3",
+      "rev": 2,
+      "latest": "2.2.4",
       "versions": [
+        {
+          "version": "2.2.4",
+          "bord": ">=4.14.0",
+          "size": 97848605,
+          "sha256": "569fd294f5e988670b9fc9ddb5270bea95612f9dbf19f82d78179246235ea267",
+          "url": "https://github.com/B40TR/bord-addons/releases/download/verdo-v2.2.4/verdo-2.2.4.bordaddon"
+        },
         {
           "version": "2.2.3",
           "bord": ">=4.14.0",
@@ -176,7 +183,15 @@
         "publisher": "bao",
         "releases": [
           {
-            "version": "2.2.3",
+            "version": "2.2.4",
+            "date": "2026-11-12",
+            "changelog": {
+              "vi": "Header một hàng như mockup: Verdo tự vẽ hàng đầu (logo, giờ xong, hướng dẫn, cài đặt, Thêm file, Chia sẻ), bỏ hàng tiêu đề thứ hai của Bord; tour Thêm file chỉ đúng nút.",
+              "en": "Single-row header like the mockup: Verdo draws the top row itself (logo, ETA, help, settings, Add file, Share) and drops Bord's second title row; the Add file tour step points at the button."
+            }
+          },
+          {
+            "version": "2.2.2",
             "date": "2026-11-11",
             "changelog": {
               "vi": "Khớp hướng dẫn Bord 4.14 mới: icon header một hàng dùng SVG thay tên icon nội bộ.",
@@ -220,6 +235,6 @@
     }
   ],
   "blocked": [],
-  "updated": "2026-11-12T01:15:04.347Z",
-  "rev": 8
+  "updated": "2026-11-12T01:56:05.783Z",
+  "rev": 9
 }
