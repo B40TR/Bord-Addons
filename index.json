@@ -148,83 +148,9 @@
           }
         ]
       }
-    },
-    {
-      "id": "verdo",
-      "rev": 1,
-      "latest": "2.2.2",
-      "versions": [
-        {
-          "version": "2.2.2",
-          "bord": ">=4.14.0",
-          "size": 97848575,
-          "sha256": "c7366773d8b791047f7be05a95d8809a7e3f0acf8558762194ed70610fab7052",
-          "url": "https://github.com/B40TR/bord-addons/releases/download/verdo-v2.2.2/verdo-2.2.2.bordaddon"
-        }
-      ],
-      "info": {
-        "name": "Verdo",
-        "summary": {
-          "vi": "Chép lời tiếng Việt và tiếng Anh thành phụ đề, chạy hoàn toàn trên máy bạn.",
-          "en": "Turn Vietnamese and English speech into subtitles, fully on your own computer."
-        },
-        "about": {
-          "vi": "Verdo chép lời giọng nói trong video và ghi âm thành văn bản và phụ đề (.srt, .vtt, .txt, .json). Mọi thứ chạy trên máy bạn: âm thanh không rời khỏi máy, chỉ model nhận dạng được tải về một lần.\n\nCách dùng: mở Verdo ở thanh bên, bấm “Thêm file”, chọn video hoặc âm thanh. Việc chạy ngay, có ước tính giờ xong theo tốc độ đo thật trên máy bạn. Hoặc mở video rồi bấm nút Verdo trên thanh điều khiển để tạo phụ đề .srt cạnh file.\n\nVerdo chọn model hợp máy, cảnh báo khi máy không kịp, tự trả RAM khi rảnh và cho bạn đặt trần RAM. Tab Duyệt đưa bạn qua các chỗ chưa chắc; mỗi lần bạn xác nhận hoặc sửa, Verdo học thêm quy tắc sửa lỗi (chỉ lưu quy tắc, không lưu nội dung bạn nói).",
-          "en": "Verdo turns the speech in videos and recordings into text and subtitles (.srt, .vtt, .txt, .json). Everything runs on your computer: audio never leaves the machine, and the recognition model is downloaded only once.\n\nHow to use: open Verdo from the sidebar, press “Add file” and pick a video or audio file. Work starts right away, with a finish-time estimate based on speed measured on your machine. Or open a video and press the Verdo button on the player bar to create an .srt next to the file.\n\nVerdo picks a model that fits your machine, warns you when it cannot keep up, frees RAM when idle and lets you set a RAM cap. The Review tab walks you through uncertain spots; each time you confirm or fix one, Verdo learns a correction rule (only rules are stored, never what you said)."
-        },
-        "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\"><path d=\"M3.5 3.5V10M7.75 8V14.5M12 12.5V19M16.25 8V14.5M20.5 3.5V10\"/></svg>",
-        "publisher": "bao",
-        "releases": [
-          {
-            "version": "2.2.2",
-            "date": "2026-11-11",
-            "changelog": {
-              "vi": "Khớp hướng dẫn Bord 4.14 mới: icon header một hàng dùng SVG thay tên icon nội bộ.",
-              "en": "Matches the updated Bord 4.14 guide: single-row header icons are now SVG instead of internal icon names."
-            }
-          },
-          {
-            "version": "2.2.1",
-            "date": "2026-11-09",
-            "changelog": {
-              "vi": "Hướng dẫn sử dụng: tour trang Verdo, tour trình xem, tour tab Verdo; nút ? có cả ở tab trình xem.",
-              "en": "Usage guide: Verdo page tour, viewer tour, Verdo tab tour; a ? button in the viewer tab too."
-            }
-          },
-          {
-            "version": "2.2.0",
-            "date": "2026-11-09",
-            "changelog": {
-              "vi": "Bord 4.14: header một hàng (giờ xong, hướng dẫn, cài đặt, Thêm file Vault/Máy tính, Chia sẻ), thả file vào trang, sao chép bằng Bord, hướng dẫn lần đầu. Vẫn chạy được trên Bord 4.13.",
-              "en": "Bord 4.14: single-row header (finish time, help, settings, Add file vault/computer, Share), drop files on the page, Bord clipboard, first-run tour. Still runs on Bord 4.13."
-            }
-          },
-          {
-            "version": "2.1.1",
-            "date": "2026-11-09",
-            "changelog": {
-              "vi": "Menu Thêm file giống thiết kế (Vault | Máy tính). Gói mặc định nhắm Bord 4.13 trở lên: có chọn Vault, tab Verdo ở panel trình xem, tiến độ trên rail.",
-              "en": "Add file menu now matches the design (Vault | Computer). Default package targets Bord 4.13+: Vault picker, Verdo tab in the viewer panel, rail progress."
-            }
-          },
-          {
-            "version": "2.1.0",
-            "date": "2026-11-08",
-            "changelog": {
-              "vi": "Cài đặt dạng popup mở tức thì với bảng quan sát (model nào, tệp nào, RAM bao nhiêu), trần RAM, nút Tắt ngay. Hết việc chạy ngầm ngoài ý muốn. Thêm tệp là chạy ngay.",
-              "en": "Instant settings popup with a live view (which model, which file, how much RAM), a RAM cap and a Stop now button. No more unrequested background work. Adding a file starts it right away."
-            }
-          }
-        ]
-      }
     }
   ],
-  "blocked": [
-    {
-      "id": "verdo",
-      "reason": "Cần đổi mới"
-    }
-  ],
-  "updated": "2026-11-12T00:57:33.144Z",
-  "rev": 6
+  "blocked": [],
+  "updated": "2026-11-12T01:13:04.297Z",
+  "rev": 7
 }
