@@ -151,9 +151,16 @@
     },
     {
       "id": "verdo",
-      "rev": 4,
-      "latest": "2.2.7",
+      "rev": 5,
+      "latest": "2.2.8",
       "versions": [
+        {
+          "version": "2.2.8",
+          "bord": ">=4.14.0",
+          "size": 97849539,
+          "sha256": "d1964cf398b93b6aa7ebc15e23ae6de0cf301129241b80354ccd582eb0fa186a",
+          "url": "https://github.com/B40TR/bord-addons/releases/download/verdo-v2.2.8/verdo-2.2.8.bordaddon"
+        },
         {
           "version": "2.2.7",
           "bord": ">=4.14.0",
@@ -196,6 +203,14 @@
         "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\"><path d=\"M3.5 3.5V10M7.75 8V14.5M12 12.5V19M16.25 8V14.5M20.5 3.5V10\"/></svg>",
         "publisher": "bao",
         "releases": [
+          {
+            "version": "2.2.8",
+            "date": "2026-11-12",
+            "changelog": {
+              "vi": "Header: thử bố cục một hàng bằng header.compose; Bord chưa cho thì giữ hai hàng, không báo lỗi. Bỏ quyền ui.page.full không cần.",
+              "en": "Header: try the single-row layout via header.compose; if Bord refuses, keep two rows silently. Dropped the unneeded ui.page.full permission."
+            }
+          },
           {
             "version": "2.2.7",
             "date": "2026-11-12",
@@ -273,6 +288,6 @@
     }
   ],
   "blocked": [],
-  "updated": "2026-11-12T03:01:16.189Z",
-  "rev": 11
+  "updated": "2026-11-12T03:14:18.595Z",
+  "rev": 12
 }
