@@ -1,7 +1,7 @@
 {
   "alg": "ed25519",
   "keyId": "store-1",
-  "sig": "D7vXNJbGnOiu880hG8HMy6j5rv5be5sw3UH9rbbVMAfZmnt4I2G+JiqM52uFZn0ELAygY4IiH1G5yBKkTf2OAg==",
+  "sig": "3f1jHRYcPtMqfni5ppo+gscaErK4R4qSrmqT5LKdyObWBYeqgQvYwHIJSdbJpnyrUFNb3KGIDCT94X8rttEnCg==",
   "cert": {
     "keyId": "store-1",
     "publisher": "bao",
