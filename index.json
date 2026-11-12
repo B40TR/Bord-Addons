@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "addons": [
+    {
+      "id": "thong-ke-ghi-chu",
+      "rev": 1,
+      "latest": "1.0.0",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "bord": ">=4.14.0",
+          "size": 5626,
+          "sha256": "4a44d45af9095332e7d5e5ea533904a80c4494b37fb0b4bf2ea80e134b62d78d",
+          "url": "https://github.com/B40TR/bord-addons/releases/download/thong-ke-ghi-chu-v1.0.0/thong-ke-ghi-chu-1.0.0.bordaddon"
+        }
+      ],
+      "info": {
+        "name": "Thống kê ghi chú",
+        "summary": {
+          "vi": "Số từ, thẻ #, từ khoá, ghi chú lâu chưa đụng, nhịp viết theo tuần.",
+          "en": "Word counts, #tags, keywords, stale notes and weekly writing rhythm."
+        },
+        "about": {
+          "vi": "Số từ, thẻ #, từ khoá, ghi chú lâu chưa đụng, nhịp viết theo tuần. Chạy hoàn toàn trên máy, không gửi dữ liệu ra ngoài. Quyền xin: ui.rail, ui.page, ui.command, data.notes.read.",
+          "en": "Word counts, #tags, keywords, stale notes and weekly writing rhythm. Runs fully on your machine. Permissions: ui.rail, ui.page, ui.command, data.notes.read."
+        },
+        "icon": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4 20V10M10 20V4M16 20v-7M22 20H2\"/></svg>",
+        "publisher": "bord",
+        "releases": [
+          {
+            "version": "1.0.0",
+            "date": "2026-11-10",
+            "changelog": {
+              "vi": "Bản đầu tiên.",
+              "en": "First release."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "blocked": [],
+  "updated": "2026-11-12T00:09:43.373Z",
+  "rev": 1
+}
